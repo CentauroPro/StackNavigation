@@ -7,7 +7,7 @@ import {
   Button,
   ImageBackground,
 } from "react-native";
-import { Table, Row, Rows, Col } from "react-native-table-component";
+import { Table, Row, Rows,  } from "react-native-table-component";
 import empleadosJSON from "../assets/data/empleados.json";
 
 export default function HistorialScreen({ navigation }) {

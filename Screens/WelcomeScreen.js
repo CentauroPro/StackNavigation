@@ -11,9 +11,7 @@ import React from "react";
 
 export default function WelcomeScreen({ navigation }) {
   return (
-    <ImageBackground
-      style={[styles.container, { opacity: 1.1 }]}
-      source={require("../assets/images/F1.jpg")}
+    <ImageBackground style={[styles.container, { opacity: 1.1 }]}  source={require("../assets/images/F1.jpg")}
     >
       <View style={styles.conte}>
         <Text></Text>

@@ -9,9 +9,7 @@ export default function LoginScreen({ navigation }) {
   function registro() {
     navigation.navigate('RegistroStack')
   }
-  const mensaje = () => {
-    Alert.alert("ingreso", "Usted ingreso correctamente");
-  };
+
   return (
 
 
